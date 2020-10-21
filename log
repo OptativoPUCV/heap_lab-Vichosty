@@ -9,3 +9,11 @@ Wed Oct 21 20:24:19 UTC 2020:
  1 file changed, 6 insertions(+), 1 deletion(-)
  tests:  0|0
 ec8088c
+Wed Oct 21 20:26:42 UTC 2020: 
+ heap.c | 13 ++++++-------
+ 1 file changed, 6 insertions(+), 7 deletions(-)
+a.out: malloc.c:2401: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.
+a.out: malloc.c:2401: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.
+ tests:  0|0
+a.out: malloc.c:2401: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.
+0d5e6f9
