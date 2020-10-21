@@ -23,3 +23,11 @@ Wed Oct 21 20:27:22 UTC 2020:
  tests:  5|3
 total_score: 25/70
 e07d7c9
+Wed Oct 21 20:28:48 UTC 2020: 
+ heap.c | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+a.out: malloc.c:2401: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.
+a.out: malloc.c:2401: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.
+ tests:  0|0
+a.out: malloc.c:2401: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.
+756b1f4
