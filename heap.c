@@ -48,6 +48,5 @@ Heap* createHeap(){
   pq->heapArray = realloc(pq->heapArray,(pq->capac)*sizeof(heapElem));
   pq->size = 0;
   pq->capac = 3;
-
-  return pq;
+  return NULL;
 }
